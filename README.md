@@ -1,13 +1,3 @@
-Thank you for allowing us to create a data masking tool for IRIS Computing Solutions!
-Team members of Group 15:
-Product Owner - Luke Slattery
-Scrum Master - Trinity Booth
-General Developers - Berk Mehmedov, Ala Diab, Salma Aloush, Alex Wilson, Waleed Khalid
-Data Architect - Berk Mehmedov
-Security Master - Alex Wilson
-Documentation and Reporting Specialist - Ala Diab, Salma Aloush
-Command Line Interface (CLI) - Waleed Khalid
-
 This script is designed to fetch data from a PostgreSQL source database, apply masking rules defined in a JSON template, and insert the masked data into a PostgreSQL target database.
 This script works by applying rules of masking logic in the script according to what is specified in the JSON files.
 
