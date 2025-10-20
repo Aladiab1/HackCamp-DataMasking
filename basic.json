@@ -1,0 +1,25 @@
+{
+    "fields": {
+      "name": {
+        "maskingType": "partial",
+        "replacement": "****"
+      },
+      "email": {
+        "maskingType": "partial",
+        "replacement": "****@example.com"
+      },
+      "phone": {
+        "maskingType": "last_4",
+        "replacement": "****"
+      },
+      "ssn": {
+        "maskingType": "last_4",
+        "replacement": "****"
+      },
+      "address": {
+        "maskingType": "redact",
+        "replacement": "REDACTED"
+      }
+    }
+  }
+  
