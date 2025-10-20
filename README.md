@@ -1,3 +1,29 @@
+HackCamp Data Masking Project
+
+This project was developed during a two-week HackCamp at the University of Salford in collaboration with IRIS Software Group. Our team designed and implemented a data masking solution to improve security and protect sensitive data.
+
+Features:
+-Connected to a PostgreSQL database to manage and store sensitive records.
+-Applied JSON-based masking rules to anonymise confidential data.
+-Produced masked copies of the database for safer development and testing.
+-Implemented multiple rule sets (basic, medium, strict) to allow different levels of masking.
+
+Technologies:
+-Python
+-PostgreSQL
+-JSON
+
+Teamwork & Process:
+-Worked in a cross-functional Agile team, following iterative development practices.
+-Regularly presented progress and refined our solution with feedback from IRIS architect.
+-Delivered a final demo to industry professionals, showcasing the complete masking system.
+
+Learning Outcomes:
+-Gained experience in tackling real-world data security challenges.
+-Improved collaboration and communication through Agile development.
+-Learned how to design adaptable rule-based systems for data protection.
+
+How To Run:
 This script is designed to fetch data from a PostgreSQL source database, apply masking rules defined in a JSON template, and insert the masked data into a PostgreSQL target database.
 This script works by applying rules of masking logic in the script according to what is specified in the JSON files.
 
